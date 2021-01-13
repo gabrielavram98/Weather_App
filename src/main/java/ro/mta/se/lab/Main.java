@@ -1,4 +1,4 @@
-package ro.mta.Vremebuna;
+package ro.mta.se.lab;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
