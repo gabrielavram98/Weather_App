@@ -1,8 +1,20 @@
 package ro.mta.se.lab.controller;
 
-public class weatherController {
-    public void butonHandler(){
-        System.out.println("hello");
+import javafx.scene.control.ChoiceBox;
 
+public class weatherController {
+
+    ChoiceBox<String> countrycombo;
+
+
+    public void CountryHandler(){
+        System.out.println("ciao");
+
+    }
+    public void CityHandler(){
+        System.out.println("ciao");
+    }
+    public void OkButtonHandler(){
+        System.out.println("ciao");
     }
 }
