@@ -16,5 +16,5 @@
 16 Versailles 48.800 2.133 FR
 17 Valencia 39.470 -0.377 ES
 18 Cordoba 37.904 -4.778 ES
-19 Florence 43.767 11.250 IT 
+19 Florence 43.767 11.250 IT
 20 Palermo 37.817 13.583 IT
