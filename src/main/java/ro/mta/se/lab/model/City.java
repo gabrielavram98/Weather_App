@@ -7,7 +7,14 @@ public class City {
     private float lat;
     private float lng;
 
-
+    /**
+     * Clasa City se ocupa cu stocarea informatiilor pentru fiecare tara in parte.
+     * @param name Numele orasului
+     * @param country Numele tarii
+     * @param lat coordonata de latitudine
+     * @param lng coodronata de longitudine
+     * @param countryID ID-ul de identificare al tarii din care face parte orasul.
+     */
     public City(String name, String country, float lat, float lng, String countryID) {
         Name = name;
         Country = country;

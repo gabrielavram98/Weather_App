@@ -6,15 +6,26 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-
+/**
+ * Clasa Manager se ocupa cu preluarea datelor de intrare din fisier si stocarea lor organizata
+ * pentru facilitarea uzului acestora in cadrul aplicatiei.
+ * @author Avram Gabriel
+ */
 public class Manager {
-
+    /**
+     * Descrierea membrilor:
+     * Cities este un vector de obiecte City in care se salveaza datele oraselor din fisierul de intrare.
+     * countries este o lista cu numele tarilor din care fac parte orasele din fisierul de intrare.
+     */
     private final ArrayList<City> Cities = new ArrayList<>();
     private final ArrayList<String> countries = new ArrayList<>();
     public Manager() {
         read_config_file();
     }
 
+    /**
+     * Aceasta functie citeste fisierul de intrare si creaza obiecte City pe care le introduce in lista.
+     */
     public void read_config_file()  {
         File f;
         f = new File("src/main/java/ro/mta/se/lab/model/countries.txt");
@@ -39,6 +50,11 @@ public class Manager {
         }
     }
 
+    /**
+     * Functia aceasta interogheaza lista de orase si le extrage pe cele care fac parte din tara data ca argument.
+     * @param country reprezinta tara pe baza careia se extrag orasele corespunzatoare.
+     *
+     */
     public ArrayList<String> CitiesByCountry(String country)
     {
         ArrayList<String> cities= new ArrayList<>();
@@ -55,7 +71,11 @@ public class Manager {
         return cities;
     }
 
-
+    /**
+     * functia addCountry adauga in lista de tari o singura intrare pentru fiecare tara detectata in fisierul de intrare.
+     * @param IdCountry
+     * @return
+     */
     public String addCountry(String IdCountry){
         String country;
         switch (IdCountry) {
@@ -130,6 +150,12 @@ public class Manager {
     public ArrayList<String> getCountries() {
         return countries;
     }
+
+    /**
+     *
+     * Aceasta functie retureaza o lista de orase care corespund tarii date ca parametru.
+     * @return
+     */
     public String getCityCountryID(String city){
 
         String id= "";

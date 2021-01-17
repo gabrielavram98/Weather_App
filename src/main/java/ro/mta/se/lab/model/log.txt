@@ -8,3 +8,16 @@
 [ 2021/01/17 - 10:59:04 ] Zemes RO -9 Celsius Snow 92%1 km/h
 [ 2021/01/17 - 10:59:07 ] Rodos GR 9 Celsius Clouds 66%8 km/h
 [ 2021/01/17 - 11:11:16 ] Sofia BG -7 Celsius Clouds 68%4 km/h
+[ 2021/01/17 - 12:37:21 ] Slatina RO -3 Celsius Clear 68%1 km/h
+[ 2021/01/17 - 12:37:28 ] Zemes RO -7 Celsius Clouds 86%0 km/h
+[ 2021/01/17 - 12:39:31 ] Zemes RO -7 Celsius Clouds 86%0 km/h
+[ 2021/01/17 - 12:39:35 ] Slatina RO -3 Celsius Clear 68%1 km/h
+[ 2021/01/17 - 12:39:38 ] Zemes RO -7 Celsius Clouds 86%0 km/h
+[ 2021/01/17 - 12:39:40 ] Slatina RO -3 Celsius Clear 68%1 km/h
+[ 2021/01/17 - 12:39:44 ] Zemes RO -7 Celsius Clouds 86%0 km/h
+[ 2021/01/17 - 12:39:59 ] Volgograd RU -13 Celsius Snow 79%2 km/h
+[ 2021/01/17 - 12:40:01 ] Atena GR 1 Celsius Clouds 45%5 km/h
+[ 2021/01/17 - 12:40:04 ] Sofia BG -5 Celsius Clear 58%4 km/h
+[ 2021/01/17 - 13:39:19 ] Zemes RO -7 Celsius Snow 86%1 km/h
+[ 2021/01/17 - 13:39:47 ] Zemes RO -7 Celsius Snow 86%1 km/h
+[ 2021/01/17 - 13:40:27 ] Slatina RO -4 Celsius Clear 63%1 km/h
