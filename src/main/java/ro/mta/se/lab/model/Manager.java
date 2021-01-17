@@ -98,10 +98,10 @@ public class Manager {
                 country = "Olanda";
             }
             case "DE" -> {
-                if (!countries.contains("Danemarca")) {
-                    countries.add("Danemarca");
+                if (!countries.contains("Germania")) {
+                    countries.add("Germania");
                 }
-                country = "Danemarca";
+                country = "Germania";
             }
             case "FR" -> {
                 if (!countries.contains("Franta")) {

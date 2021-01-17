@@ -2,13 +2,14 @@ package ro.mta.se.lab.model;
 import com.eclipsesource.json.Json;
 import com.eclipsesource.json.JsonArray;
 import com.eclipsesource.json.JsonObject;
+import ro.mta.se.lab.interfaces.IParser;
 
 
-public class Parser {
+public class Parser implements IParser {
      String raw;
 
-     public Parser(String raw) {
-          this.raw = raw;
+     public Parser() {
+
      }
 
      public String getTemp(){
@@ -31,15 +32,7 @@ public class Parser {
           return items.get("speed").toString();
      }
 
-
-
-
-
-
-
-
-
-
-
-
+     public void setRaw(String raw) {
+          this.raw = raw;
+     }
 }

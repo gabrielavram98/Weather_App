@@ -1,6 +1,7 @@
 package ro.mta.se.lab.model;
 
 import com.eclipsesource.json.JsonValue;
+import ro.mta.se.lab.interfaces.IParser;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -10,8 +11,10 @@ import java.net.URL;
 import java.net.URLConnection;
 
 public class weather {
-    private Parser parser;
-    public weather(){}
+    private IParser parser;
+    public weather(IParser pars){
+        parser=pars;
+    }
     public void download( String cityname, String countryID) throws IOException {
         StringBuilder result= new StringBuilder();
         System.out.println(cityname);
@@ -24,7 +27,8 @@ public class weather {
             result.append(line);
         }
         rd.close();
-        parser=new Parser(result.toString());
+        parser.setRaw(result.toString());
+
     }
 
     public String getTemp(){
