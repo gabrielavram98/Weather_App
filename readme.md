@@ -2,7 +2,7 @@
 
 
 
- ## __Descrierea paplicatiei__ 
+ ## __Descrierea aplicatiei__ 
 
  ### Aceasta aplicatie se foloseste pentru a vizualiza conditiile meteorlogice curente in orase din intreaga lume. Pentru a realiza acest lucru, aplciatia face o interogare catre serverul openweather si obtine informatiile în momentul curent despre conditiile meteorologice din orasul selectat. 
 ### Aplicatia primeste un fisier de intrare in care sunt informatii despre orasele care vor fi disponibile in aplicatie, informatii precum:
